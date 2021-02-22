@@ -1,0 +1,16 @@
+body {
+    height: 100vh;
+    background: url(img/background.gif)  no-repeat center/cover;
+}
+
+
+#lion-button {
+    background: url( "img/lion3.png" ) no-repeat;
+    border: none;
+    width: 450px;
+    height: 500px;
+    cursor: pointer;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}

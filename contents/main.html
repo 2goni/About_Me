@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.0.min.js" ></script>
+    <script>
+    var val="gh2684@naver.com"
+    function copyToClipboard(val) {
+        var t = document.createElement("textarea");
+        document.body.appendChild(t);
+        t.value = val;
+        t.select();
+        document.execCommand('copy');
+        document.body.removeChild(t);
+        alert('gh2684@naver.com 복사 되었습니다.');
+    }
+    </script> 
+</head>
+<body>
+    <div id="wrap">
+        <h1><p class="sansC">ABOUT ME</p></h1>
+            
+    </div>
+
+     <div id="wrap2">
+        <div>
+            <button type="button" id="button1" onclick="location.href='profile.html'"></button>
+        </div>
+        <div>
+            <button type="button" id="button2" onclick="location.href='memory.html'"></button>
+        </div>
+        <div>
+            <button type="button" id="button3" onclick="location.href='favorite.html'"></button>
+        </div>
+        <div>
+            <button type="button" id="button4"  onclick="copyToClipboard('gh2684@naver.com')"></button>
+        </div>
+    </div>
+ </body>
+</html>

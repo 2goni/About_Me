@@ -1,0 +1,73 @@
+@font-face {
+    font-family:"KCC";
+    src: url("font/KCCMurukmuruk.ttf")
+}
+
+@font-face {
+    font-family:"sans";
+    src: url(font/RacingSansOne-Regular.ttf)
+}
+
+#back-button {
+    background: url(img/backbutton.png) no-repeat center/cover;
+    border: none;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#back{
+    position:absolute; 
+    width:229px;
+    height:68px;
+    top: 70px;
+    right: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.sansC{
+    font-family: "sans";
+    text-align: center;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translate( -50%, -50% );  
+}
+
+.show{
+    text-align: center;
+    font-family: "KCC";
+    font-size: 25px;
+}
+#wrap{
+    position:absolute;
+    width:1050px;
+    height:300px;
+    top:400px;
+    left:50%; 
+    transform: translate(-50%);
+}
+
+#f1{
+    width:250px;
+    height:250px; 
+    margin: 10px auto;
+}
+
+#f2{
+    width:250px;
+    height:250px; 
+    margin: 10px auto;
+}
+
+#f3{
+    width:250px;
+    height:250px; 
+	margin: 10px auto;
+}
+
+#f4{
+    width:250px;
+    height:250px; 
+	margin: 10px auto; 
+}

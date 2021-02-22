@@ -1,0 +1,80 @@
+
+@font-face {
+    font-family:"sans";
+    src: url(font/RacingSansOne-Regular.ttf)
+}
+
+#wrap {
+    position:absolute; 
+    width:500px;
+    height:200px;
+    top:20px;
+    left:50%;
+	margin: 10px auto;
+    transform: translate(-50%);
+    background: url("band.png") no-repeat center;
+    
+}
+
+.sansC{
+    font-family: "sans";
+    text-align: center;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate( -50%, -50% );  
+}
+
+#wrap2 {
+    position:absolute;
+    width:600px; /* wrap에 속한 div의 넓이+margin값을 더한 넓이와 높이값 */
+    height:600px;
+    margin: 10px auto;
+    top:150px;
+    left:50%;
+    transform: translate(-50%); /* 중앙정렬 */
+}
+
+#wrap2 > div {
+    width:47%;
+    height:47%;
+    float:left;
+    margin: 5px;
+    box-sizing:border-box; /* border 또한 위치값을 갖기에 div크기가 더 커짐을 방지하기 위한 */
+}
+
+#wrap2 > div:nth-child(3) {
+    clear:both; /* float:left 의 줄바꿈을 위한 */
+}
+
+#button1 {
+    background: url( "img/button1.png" ) no-repeat;
+    border: none;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+#button2 {
+    background: url( "img/button2.png" ) no-repeat;
+    border: none;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+#button3 {
+    background: url( "img/button3.png" ) no-repeat;
+    border: none;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+#button4 {
+    background: url( "img/button4.png" ) no-repeat;
+    border: none;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
